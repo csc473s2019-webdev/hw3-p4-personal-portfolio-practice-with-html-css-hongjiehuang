@@ -33,5 +33,25 @@ ul{
     padding-top: 100px;
     text-align: center;
     background-color:linen;
-    fond
+}
+
+.project{
+    float: left;
+    width: 50%;
+    font-weight: bold;
+    border:5px solid #ccc;
+    padding:5px;
+    box-sizing: border-box;
+    display: block;
+    
+}
+img{
+    height: 430px;
+    width: 650px;
+}
+
+#projects{
+    color: #008080;
+    font-weight: normal;
+    text-align: center;
 }
