@@ -1,0 +1,37 @@
+body {
+    font-family:'Arial';
+    font-size:1em;
+    background-color:#F1F1F1;
+}
+a {
+    color:black;
+    text-decoration: none;
+  }
+
+
+#navbar{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color:linen;
+    margin: 0;
+    top:0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 40px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+
+ul{
+    padding-left: 500px;
+}
+
+#welcome-section{
+    padding-top: 100px;
+    text-align: center;
+    background-color:linen;
+    fond
+}
