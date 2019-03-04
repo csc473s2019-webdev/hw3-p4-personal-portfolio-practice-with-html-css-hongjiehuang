@@ -50,8 +50,6 @@ ul{
 }
 
 .project{
-    float: left;
-    width: 100%;
     font-weight: bold;
     border:5px solid #ccc;
     padding:5px;
@@ -82,7 +80,7 @@ img{
     background-color:linen;
     padding-bottom: 50px;
 }
-.contact-info1:hover {
+.contact-info:hover {
     color:burlywood;
 }
     
