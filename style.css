@@ -35,14 +35,16 @@ ul{
     background-color:linen;
 }
 
-.project{
+.project-tile{
     float: left;
     width: 50%;
     font-weight: bold;
     border:5px solid #ccc;
     padding:5px;
     box-sizing: border-box;
-    display: block;
+    text-align: center;
+    font-weight:bold;
+
     
 }
 img{
@@ -54,4 +56,8 @@ img{
     color: #008080;
     font-weight: normal;
     text-align: center;
+}
+
+  
+    
 }
