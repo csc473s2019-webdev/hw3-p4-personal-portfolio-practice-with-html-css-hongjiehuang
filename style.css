@@ -4,7 +4,7 @@
         height: auto;
     }
   }
-  
+
 body {
     font-family:'Arial';
     font-size:1em;
@@ -38,11 +38,12 @@ ul{
 
 #welcome-section{
     top: 0;
-    min-height: 30vh;
-    padding-top: 15vh;
+    height:80vh;
+    padding-top: 20Vh;
     display: block;
     text-align: center;
     background-color:linen;
+    font-size: 30px;
 }
 
 .project{
@@ -52,6 +53,7 @@ ul{
     border:5px solid #ccc;
     padding:5px;
     box-sizing: border-box;
+    background-color:rgb(241, 238, 238);
 }
 
 .project-tile{
@@ -70,6 +72,14 @@ img{
     font-weight: normal;
     text-align: center;
 }
-
   
+#contact{
+    display: block;
+    text-align: center;
+    background-color:linen;
+    padding-bottom: 50px;
+}
     
+#footer{
+    text-align: center;
+}
