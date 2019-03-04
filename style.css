@@ -44,6 +44,9 @@ ul{
     text-align: center;
     background-color:linen;
     font-size: 30px;
+    background-image: url(image/bg.jpg);
+   
+    background-position: center center;
 }
 
 .project{
@@ -79,7 +82,12 @@ img{
     background-color:linen;
     padding-bottom: 50px;
 }
+.contact-info1:hover {
+    color:burlywood;
+}
     
+
+
 #footer{
     text-align: center;
 }
