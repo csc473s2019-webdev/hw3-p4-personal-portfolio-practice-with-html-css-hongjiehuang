@@ -1,3 +1,10 @@
+@media only screen and (max-width: 650px) {
+    img.resize {
+        width:auto; 
+        height: auto;
+    }
+  }
+  
 body {
     font-family:'Arial';
     font-size:1em;
@@ -30,25 +37,31 @@ ul{
 }
 
 #welcome-section{
-    padding-top: 100px;
+    top: 0;
+    min-height: 30vh;
+    padding-top: 15vh;
+    display: block;
     text-align: center;
     background-color:linen;
 }
 
-.project-tile{
+.project{
     float: left;
-    width: 50%;
+    width: 100%;
     font-weight: bold;
     border:5px solid #ccc;
     padding:5px;
     box-sizing: border-box;
+}
+
+.project-tile{
     text-align: center;
     font-weight:bold;
-
-    
 }
+    
+
 img{
-    height: 430px;
+    height: auto;
     width: 650px;
 }
 
@@ -60,4 +73,3 @@ img{
 
   
     
-}
